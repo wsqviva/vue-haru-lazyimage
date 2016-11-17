@@ -1,0 +1,30 @@
+{
+  "name": "vue-haru-lazyimage",
+  "version": "0.0.1",
+  "description": "vue haru lazy load image",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node ./build/dev-server.js"
+  },
+  "repository": "git@github.com:wsqviva/vue-haru-lazyimage.git",
+  "author": "wsqviva <wsq19850829@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.0.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "babel-core": "^6.18.2",
+    "babel-helper-vue-jsx-merge-props": "^2.0.2",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.1.2",
+    "babel-preset-es2015-webpack": "^6.4.3",
+    "babel-preset-stage-2": "^6.18.0",
+    "express": "^4.14.0",
+    "html-webpack-plugin": "^2.24.1",
+    "webpack": "2.1.0-beta.27",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-hot-middleware": "^2.13.2"
+  }
+}
