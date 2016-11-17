@@ -11,6 +11,11 @@ const app = express()
 
 const compiler = webpack(webpackConfig)
 
+webpackConfig.entry.index = [
+  `webpack-hot-middleware/client?reload=true&path=http://localhost:${port}/__webpack_hmr`,
+  webpackConfig.entry.index
+]
+
 const devMiddleWare = webpackDevMiddleware(compiler, {
   publicPath: webpackConfig.output.publicPath,
   stats: {
