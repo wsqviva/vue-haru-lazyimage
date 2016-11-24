@@ -30,6 +30,8 @@ const devMiddleWare = webpackDevMiddleware(compiler, {
 app.use(devMiddleWare)
 app.use(webpackHotMiddleware(compiler))
 
+app.use('/', express.static(PATHS.root))
+
 // const mfs = devMiddleWare.fileSystem
 // const file = path.join(PATHS.output, 'index.html')
 // app.get('/', (req, res) => {

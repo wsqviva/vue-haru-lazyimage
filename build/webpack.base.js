@@ -6,7 +6,7 @@ const { PATHS } = require('./config')
 
 module.exports = {
   entry: {
-    index: './src/index.js'
+    example: './example/example.js'
   },
   output: {
     path: PATHS.output,
