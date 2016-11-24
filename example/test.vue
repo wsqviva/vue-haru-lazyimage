@@ -9,7 +9,7 @@
               <li class="roster-item" v-for="item in rosterData">
                 <div class="roster-item-avatar-wrapper">
                   <!-- v-lazyload-image.simpleroster="item.profileImage" -->
-                  <img class="roster-item-avatar" src="http://fsceshi.fspage.com/html/base-dist/assets/images/employee_default_120_120.png" width="20" height="20">
+                  <img class="roster-item-avatar" src="/example/imgs/default.png" width="20" height="20">
                 </div>
                 <span class="roster-item-name">张学友</span>
               </li>
@@ -66,6 +66,7 @@ export default {
     line-height: 18px
     margin-bottom: 5px
     font-family: "PingFangSC-Medium"
+    font-size: 13px
     color: #999
 
   .roster-item
